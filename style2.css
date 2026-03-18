@@ -1,0 +1,43 @@
+/* 🔹 ESTILO BASE (PC / escritorio) */
+body {
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* 🔹 BREAKPOINT 1 - TABLET (≤ 992px) */
+@media (max-width: 992px) {
+  body {
+    background-color: #f1f3f5;
+    font-size: 15px;
+  }
+
+  .sidebar {
+    background-color: #e9ecef;
+  }
+}
+
+/* 🔹 BREAKPOINT 2 - MÓVIL (≤ 768px) */
+@media (max-width: 768px) {
+  body {
+    background-color: #dee2e6;
+    font-size: 14px;
+  }
+
+  /* 👉 Oculta el sidebar automáticamente */
+  .sidebar {
+    display: none;
+  }
+}
+
+/* 🔹 BREAKPOINT 3 - MÓVIL PEQUEÑO (≤ 576px) */
+@media (max-width: 576px) {
+  body {
+    background-color: #ced4da;
+    font-size: 13px;
+  }
+}
